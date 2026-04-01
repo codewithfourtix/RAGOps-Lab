@@ -16,7 +16,7 @@
 
 ## Overview
 
-NovaRAG is a modular and production-minded RAG system that supports provider-swappable embeddings, duplicate-safe ingestion, and measurable retrieval evaluation. It ingests local knowledge into Supabase vector storage, retrieves relevant chunks with pgvector search, and generates grounded answers.
+RAGOps-Lab is a modular and production-minded RAG system that supports provider-swappable embeddings, duplicate-safe ingestion, and measurable retrieval evaluation. It ingests local knowledge into Supabase vector storage, retrieves relevant chunks with pgvector search, and generates grounded answers.
 
 ## What Is New
 
