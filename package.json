@@ -1,0 +1,23 @@
+{
+  "name": "rag",
+  "version": "1.0.0",
+  "description": "A production-style RAG pipeline with Gemini embeddings and Supabase pgvector",
+  "type": "module",
+  "main": "src/rag.js",
+  "scripts": {
+    "reset-db": "node src/resetDb.js",
+    "reindex": "node src/reindex.js",
+    "ingest": "node src/ingest.js",
+    "query": "node src/query.js",
+    "eval:embeddings": "node src/evaluateEmbeddings.js",
+    "test": "echo \"No tests configured yet\""
+  },
+  "keywords": ["rag", "gemini", "supabase", "pgvector", "llm"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "@supabase/supabase-js": "^2.101.1",
+    "dotenv": "^17.3.1"
+  }
+}
