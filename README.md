@@ -1,4 +1,4 @@
-<h1 align="center">NovaRAG</h1>
+<h1 align="center">RAGOps-Lab</h1>
 
 <p align="center">
   Enterprise-Style Retrieval-Augmented Generation (RAG) Pipeline<br/>
